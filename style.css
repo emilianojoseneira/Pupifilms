@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    margin-left: 0.625rem;
+  }
+  
+  .titulo {
+    color: white;
+    background-color: skyblue;
+    text-align: center;
+    margin: 100px;
+  }
+  .tituloReserva {
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+  }
+  .botonesReserva {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    row-gap: 10px;
+  }
+  
