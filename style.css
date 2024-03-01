@@ -10,9 +10,73 @@ body {
     margin: 70px;
   }
   .exel {
-    color: white;
+    color: rgb(39, 34, 34);
     font-size: 1.875rem;
+    font-size: 30px;
   }
   .lista {
     color: white;
+    font-size: 1.5625rem;
   }
+  .texto {
+    font-weight: 500;
+  }
+  /*footer*/
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    background-color: #dadada;
+    padding: 1.25rem;
+    margin: auto;
+    border-radius: .625rem;
+    height: auto;
+    width: 98%;
+    margin-top: 12.5rem;
+    
+   }
+
+   .footer .logo img {
+    width: 20%;
+   }
+   .footer .logo  {
+    font-size: 1.125rem;
+   }
+
+   .logo {
+    
+    display: flex;
+    height: auto;
+    
+    flex-direction: column;
+    color: rgb(27, 25, 25);
+    align-items: center;
+    padding-right: auto;
+    margin-right: auto;
+
+   }
+
+   .nav-foot li a {
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-size: 1.25rem ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   }
+   .nav-foot li {
+    list-style: none;
+
+   }
+
+    .datos-contacto .ubicacion {
+    text-align: justify;}
+
+    .mailFooter a {
+       text-decoration: none;
+       color: black;
+
+    }
+    .mailFooter {
+        padding-bottom: .625rem;
+    }
+    
